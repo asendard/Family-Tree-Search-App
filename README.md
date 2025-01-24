@@ -33,4 +33,4 @@ Aplikasi ini adalah alat bantu untuk menelusuri hubungan keluarga dalam sebuah s
    - Di kolom "Masukkan Anggota Keluarga (Tujuan)", ketik nama anggota keluarga tujuan (misalnya, "Harits").
 
 3. **Pilih Metode Pencarian**:
-   - Pilih metode pencarian yang ingin digunakan: **BFS** atau **A**
+   - Pilih metode pencarian yang ingin digunakan: **BFS** atau **A***
