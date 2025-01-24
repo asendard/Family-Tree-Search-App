@@ -1,22 +1,5 @@
 # Aplikasi Pencarian Silsilah Keluarga
 
-Aplikasi ini adalah alat bantu untuk menelusuri hubungan keluarga dalam sebuah silsilah. Dengan menggunakan aplikasi ini, Anda dapat mencari jalur hubungan antara dua anggota keluarga, seperti mencari nenek moyang bersama atau hubungan antara sepupu.
-
-## Cara Menggunakan
-1. Jalankan aplikasi dengan perintah `streamlit run app.py`.
-2. Masukkan nama anggota keluarga awal dan tujuan.
-3. Pilih metode pencarian (BFS atau A*).
-4. Klik "Cari Jalur" untuk melihat hasil.
-
-## Teknologi yang Digunakan
-- Python
-- Streamlit
-- MySQL
-- Algoritma BFS dan A*
-
-
-# Aplikasi Pencarian Silsilah Keluarga
-
 Aplikasi ini adalah alat bantu untuk menelusuri hubungan keluarga dalam sebuah silsilah. Dengan menggunakan aplikasi ini, Anda dapat mencari jalur hubungan antara dua anggota keluarga, seperti mencari nenek moyang bersama. Aplikasi ini menggunakan dua metode pencarian: **BFS (Breadth-First Search)** dan **A** **(A-Star)**, yang membantu menemukan jalur hubungan dengan cepat dan efisien.
 
 ## Apa yang Bisa Dilakukan dengan Aplikasi Ini?
@@ -32,6 +15,12 @@ Aplikasi ini adalah alat bantu untuk menelusuri hubungan keluarga dalam sebuah s
 3. **Informasi Tambahan**:
    - Aplikasi juga menampilkan berapa banyak anggota keluarga yang diperiksa (simpul yang dieksplorasi) dan waktu yang dibutuhkan untuk menemukan jalur.
 
+## Teknologi yang Digunakan
+- Python
+- Streamlit
+- MySQL
+- Algoritma BFS dan A*
+
 ## Cara Menggunakan Aplikasi
 
 1. **Buka Aplikasi**:
@@ -39,6 +28,7 @@ Aplikasi ini adalah alat bantu untuk menelusuri hubungan keluarga dalam sebuah s
    - Buka browser dan akses `http://localhost:8501`.
 
 2. **Masukkan Nama Anggota Keluarga**:
+     Contoh :
    - Di kolom "Masukkan Anggota Keluarga (Awal)", ketik nama anggota keluarga awal (misalnya, "Abdul Muthalib").
    - Di kolom "Masukkan Anggota Keluarga (Tujuan)", ketik nama anggota keluarga tujuan (misalnya, "Harits").
 
